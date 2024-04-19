@@ -16,18 +16,19 @@ body {
     width: 100%;
     max-width: 550px;
     margin: 10%;
+    padding: 15px;
 }
 
 .container h1 {
     color: #fff;
-    font-size: 3.5vw;
-    margin-bottom: 2.5rem;
+    font-size: 45px;
+    margin-bottom: 35px;
 }
 
 .container h1 span {
     color: #1f9b4d;
     border-bottom: solid 4px #1f9b4d;
-    padding-bottom: 0.25rem;
+    padding-bottom: 8px;
 
 }
 
@@ -38,26 +39,26 @@ body {
     align-items: center;
     justify-content: space-between;
     background: #fff;
-    padding: 1rem;
-    border-radius: 0.75rem;
-    margin-bottom: 1.25rem;
+    padding: 15px;
+    border-radius:10px;
+    margin-bottom: 20px;
 }
 
 .display_password input {
     border: 0;
     outline: 0;
-    font-size: 1.5vw;
+    font-size: 14px;
     width: 300px;
 }
 
 .display_password img {
-    width: 2vw;
+    width: 30px;
     cursor: pointer;
 }
 
 button img {
-    width: 1.8vw;
-    margin-right: 0.5rem;
+    width: 25px;
+    margin-right: 5px;
 }
 
 button {
@@ -67,9 +68,31 @@ button {
     font-weight: 700;
     color: #fff;
     border: none;
-    font-size: 1.25vw;
-    border-radius: 0.50rem;
-    padding: 1rem 0.75rem;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 15px 12px;
     background: #1f9b4d;
     cursor: pointer;
+}
+
+@media screen and (max-width:600px){
+    body{
+        display:flex;
+        align-items: center;
+    }
+    
+    .container{
+        width: 500px;
+        margin:5%;
+    }
+
+    .container h1{
+        font-size: 35px;
+    }
+
+    .display_password{
+        width: 90%;
+        max-width: 450px;
+        font-size: 18px;
+    }
 }
